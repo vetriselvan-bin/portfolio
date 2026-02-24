@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const PortfolioSettings = require('./models/PortfolioSettings');
-const Project = require('./models/Project');
-const Skill = require('./models/Skill');
-const Experience = require('./models/Experience');
-const CodingProfile = require('./models/CodingProfile');
+const PortfolioSettings = require('../models/PortfolioSettings');
+const Project = require('../models/Project');
+const Skill = require('../models/Skill');
+const Experience = require('../models/Experience');
+const CodingProfile = require('../models/CodingProfile');
 
 dotenv.config();
 
